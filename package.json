@@ -1,0 +1,25 @@
+{
+  "name": "i18n-vue-vitets",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --port 5050",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "vue": "^3.2.33",
+    "vue-i18n": "^9.2.0-beta.35"
+  },
+  "devDependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^3.4.0",
+    "@types/node": "^16.11.27",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/tsconfig": "^0.1.3",
+    "typescript": "~4.6.3",
+    "vite": "^2.9.5",
+    "vite-plugin-windicss": "^1.8.4",
+    "vue-tsc": "^0.34.7",
+    "windicss": "^3.5.4"
+  }
+}

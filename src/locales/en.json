@@ -1,0 +1,23 @@
+{
+    "message" : "hello {msg}",
+    "listInterpolation" : "example {0}",
+    "literalInterpolation" : "{account}{'@'}{domain}",
+    "linkedMessage" : {
+      "name" : "Abolfazl",
+      "lastName" : "Jalildoost",
+      "introduction" : "@:linkedMessage.name - @:linkedMessage.lastName 16 years old"
+    },
+    "built-in-modifiers" : {
+      "address" : "piroozi street",
+      "missingAddress" : "please provide @.upper:built-in-modifiers.address",
+      "capitalizeMissingAddress" : "@.capitalize:built-in-modifiers.address"
+    },
+    "pluralization" : {
+      "apple" : "no apples | {n} apple | {count} apples"
+    },
+    "select": "select your food",
+    "fruits": {
+      "banana": "banana"
+    },
+    "dir" : "ltr"
+  }

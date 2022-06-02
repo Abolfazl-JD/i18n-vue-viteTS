@@ -1,0 +1,22 @@
+{
+  "message" : "سلام جهان",
+  "listInterpolation" : "مثال {0}",
+  "linkedMessage" : {
+    "name" : "ابوالفضل",
+    "lastName" : "جلیل دوست",
+    "introduction" : "@:linkedMessage.name - @:linkedMessage.lastName 16 ساله"
+  },
+  "built-in-modifiers" : {
+    "address" : "خیابان پیروزی",
+    "missingAddress" : "لطفا مشخص کنید @.upper:built-in-modifiers.address",
+    "capitalizeMissingAddress" : "@.capitalize:built-in-modifiers.address"
+  },
+  "pluralization" : {
+    "apple" : "سیب {n}"
+  },
+    "select": "غذای خود را انتخاب کنید",
+    "fruits": {
+      "banana": "موز"
+    },
+    "dir" : "rtl"
+  }
